@@ -130,6 +130,7 @@ form input:focus{
   font-size: 12px;
   font-style: italic;
   margin-bottom: 60px;
+  padding: 0px 5px;
 }
 .form-final-parag{
   font-size: 10px;
