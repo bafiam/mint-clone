@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #ECEEF1;
+}
+.page-header{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+  margin-top: 10px;
+  
+}
+.signin-key{
+  height: 1em;
+  width: .8em;
+  margin-top: 2px;color: #0077C5;
+  margin-right: 4px;
+  vertical-align: text-AvenirNext,Avenir,top;
+  display: inline-block;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/icon-whitelock@3x.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+.page-header button{
+  align-self: center;
+  background: #0077C5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  color: white;
+  padding: 7px 20px;
+  cursor: pointer;
+}
+.page-header ul{
+  margin-right: 10px;
+ 
+}
+.page-header ul li{
+  list-style-type: none;
+  font-size: 12px;background: #ECEEF1;
+  line-height: 20px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400px;
+  color: #505050;
+}
+.page-header ul li a{
+  text-decoration: none;
+  color: #0077C5;
+  
+  
+}
