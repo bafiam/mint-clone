@@ -48,6 +48,20 @@ body{
 .page-header ul li a{
   text-decoration: none;
   color: #0077C5;
-  
-  
+}
+
+.intuit-logo {
+  width: 120px;
+  height: 120px;
+  margin-top: 5px;
+}
+
+.logos {
+  margin-top: -30px;
+}
+.page-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
