@@ -1,6 +1,7 @@
 *{
   margin: 0;
   box-sizing: border-box;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 body{
   background: #ECEEF1;
@@ -39,15 +40,19 @@ body{
 }
 .page-header ul li{
   list-style-type: none;
-  font-size: 12px;background: #ECEEF1;
+  font-size: 12px;
+  background: #ECEEF1;
   line-height: 20px;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 400px;
   color: #505050;
 }
-.page-header ul li a{
+.page-header ul li a, .page-main a{
   text-decoration: none;
   color: #0077C5;
+}
+
+.page-main a {
+  font-size: 12px;
 }
 
 .intuit-logo {
@@ -64,4 +69,13 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+form {
+  width: 33%;
+  background: white;
+  height: inherit;
+  text-align: center;
+  margin-top: 10px;
+  padding: 30px 10px;
 }
