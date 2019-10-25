@@ -1,54 +1,60 @@
-*{
+* {
   margin: 0;
   box-sizing: border-box;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-body{
-  background: #ECEEF1;
+
+body {
+  background: #eceef1;
 }
-.page-header{
+
+.page-header {
   display: flex;
   justify-content: flex-end;
   margin-right: 30px;
   margin-top: 10px;
-  
 }
-.signin-key{
+
+.signin-key {
   height: 1em;
-  width: .8em;
-  margin-top: 2px;color: #0077C5;
+  width: 0.8em;
+  margin-top: 2px;
+  color: #0077c5;
   margin-right: 4px;
-  vertical-align: text-AvenirNext,Avenir,top;
+  vertical-align: text-AvenirNext, Avenir, top;
   display: inline-block;
   background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/icon-whitelock@3x.png);
   background-size: contain;
   background-repeat: no-repeat;
-  
 }
-.page-header button{
+
+.page-header button {
   align-self: center;
-  background: #0077C5;
+  background: #0077c5;
   border-radius: 4px;
   border: 1px solid #4c4c4c;
   color: white;
   padding: 7px 20px;
   cursor: pointer;
 }
-.page-header ul{
+
+.page-header ul {
   margin-right: 10px;
- 
 }
-.page-header ul li{
+
+.page-header ul li {
   list-style-type: none;
   font-size: 12px;
-  background: #ECEEF1;
+  background: #eceef1;
   line-height: 20px;
   font-weight: 400px;
   color: #505050;
 }
-.page-header ul li a, .page-main a{
+
+.page-header ul li a,
+.page-main a {
   text-decoration: none;
-  color: #0077C5;
+  color: #0077c5;
 }
 
 .page-main a {
@@ -58,12 +64,12 @@ body{
 .intuit-logo {
   width: 120px;
   height: 120px;
-  margin-top: 5px;
 }
 
 .logos {
   margin-top: -30px;
 }
+
 .page-main {
   display: flex;
   flex-direction: column;
@@ -77,66 +83,65 @@ form {
   height: inherit;
   text-align: center;
   margin-top: 10px;
-  padding: 30px 0px 0px 0px;
-  border:1px solid #d4d2d2;
-  
+  padding-top: 30px;
+  border: 1px solid #d4d2d2;
 }
-.form-parag-one{
+
+.form-parag-one {
   margin-top: 15px;
-  color: #4C4C4C;
+  color: #4c4c4c;
   font-size: 14px;
 }
-form h2{
-  color:#4C4C4C;
+
+form h2 {
+  color: #4c4c4c;
   line-height: 1.1;
   font-size: 24px;
   font-weight: 300;
 }
-.form-label, form input{
+
+.form-label,
+form input {
   margin-top: 30px;
   width: 100%;
   text-align: left;
   margin-left: 40px;
- 
 }
-form input{
+
+form input {
   margin-top: 15px;
   width: 85%;
   margin-left: 5px;
   height: 35px;
   border-radius: 4px;
-  border: 1px solid #C1C5C8;
-  
-  
+  border: 1px solid #c1c5c8;
 }
-form input:focus{
-  border: 1px solid blue;
-}
-.form-submit button{
+
+.form-submit button {
   width: 85%;
   height: 44px;
   margin-left: 3px;
   margin-top: 25px;
-  background: #0077C5;
-  border: #0077C5;
+  background: #0077c5;
+  border: #0077c5;
   margin-bottom: 35px;
   border-radius: 4px;
   color: white;
   font-size: 18px;
-
 }
-.form-last-parag{
+
+.form-last-parag {
   text-align: center;
   font-size: 12px;
   font-style: italic;
   margin-bottom: 60px;
-  padding: 0px 5px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
-.form-final-parag{
+
+.form-final-parag {
   font-size: 10px;
   font-style: italic;
-  background: #ECEEF1;
+  background: #eceef1;
   padding: 20px;
-  
-
 }
