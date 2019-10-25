@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  background: #eceef1;
+}
+
+.page-header {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 30px 0 0;
+}
+
+.signin-key {
+  height: 1em;
+  width: 0.8em;
+  color: #0077c5;
+  margin-right: 4px;
+  vertical-align: top;
+  display: inline-block;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/icon-whitelock@3x.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.set-of-logos {
+  display: flex;
+  margin: -25px 0 5px -35px;
+}
+
+.set-of-logos li {
+  list-style-type: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: #505050;
+}
+
+.page-header button {
+  align-self: center;
+  background: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  color: white;
+  padding: 7px 20px;
+  cursor: pointer;
+}
+
+.page-header ul {
+  margin-right: 10px;
+}
+
+.page-header ul li {
+  list-style-type: none;
+  font-size: 12px;
+  background: #eceef1;
+  line-height: 20px;
+  font-weight: 400;
+  color: #505050;
+}
+
+.page-main a {
+  font-size: 12px;
+}
+
+.page-main a,
+.page-header ul li a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+.intuit-logo {
+  width: 120px;
+  height: 120px;
+}
+
+.logos {
+  margin-top: -30px;
+}
+
+.page-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-div {
+  width: 30%;
+  background: white;
+  height: inherit;
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 30px;
+  border: 1px solid #d4d2d2;
+}
+
+.form-parag-one {
+  margin-top: 15px;
+  color: #4c4c4c;
+  font-size: 14px;
+}
+
+.form-div h2 {
+  color: #4c4c4c;
+  line-height: 1.1;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.form-label,
+form input {
+  margin: 30px 0 0 40px;
+  width: 100%;
+  text-align: left;
+}
+
+.form-label {
+  color: #505050;
+}
+
+form input {
+  margin: 15px 0 0 5px;
+  width: 85%;
+  height: 35px;
+  border-radius: 4px;
+  border: 1px solid #c1c5c8;
+}
+
+.form-submit button {
+  width: 85%;
+  height: 44px;
+  margin: 25px 0 35px 3px;
+  background: #0077c5;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+}
+
+.form-last-parag {
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+  margin-bottom: 60px;
+  padding: 0 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #505050;
+  line-height: 2;
+}
+
+.form-recaptcha {
+  font-size: 10px;
+  font-style: italic;
+  background: #eceef1;
+  padding: 20px;
+  color: #505050;
+}
+
+.page-footer {
+  text-align: center;
+}
+
+.page-footer ul li {
+  list-style-type: none;
+}
+
+.page-footer ul li a {
+  text-decoration: none;
+  color: #505050;
+  font-size: 12px;
+}
+
+.page-footer ul li a:hover {
+  text-decoration: underline;
+}
+
+.page-footer ul {
+  display: flex;
+  margin: 0 auto;
+  width: 20%;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.footer-parag {
+  color: #505050;
+  font-size: 12px;
+  width: 52%;
+  margin: 0 auto;
+  line-height: 1.8;
+  margin-top: 6px;
+}
+
+.password {
+  position: relative;
+}
+
+.password-key {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 10%;
+  top: 42%;
+}
+
+.phone-msg {
+  font-size: 11px;
+  text-align: left;
+  margin: 5px 0 0 38px;
+  color: #505050;
+}
+
+.set-of-logos li:not(:first-of-type) {
+  margin-left: 8px;
+}
+
+.favicon {
+  width: 23px;
+  height: 23px;
+}
