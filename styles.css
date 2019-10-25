@@ -13,8 +13,7 @@ body {
 .page-header {
   display: flex;
   justify-content: flex-end;
-  margin-right: 30px;
-  margin-top: 10px;
+  margin: 10px 30px 0 0;
 }
 
 .signin-key {
@@ -27,6 +26,22 @@ body {
   background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/icon-whitelock@3x.png);
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.set-of-logos {
+  display: flex;
+  margin: -25px 0 5px -35px;
+}
+
+.set-of-logos li {
+  list-style-type: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: #505050;
+}
+
+.set-of-logos li:not(:first-of-type) {
+  margin-left: 8px;
 }
 
 .page-header button {
@@ -103,10 +118,9 @@ body {
 
 .form-label,
 form input {
-  margin-top: 30px;
+  margin: 30px 0 0 40px;
   width: 100%;
   text-align: left;
-  margin-left: 40px;
 }
 
 .form-label {
@@ -114,9 +128,8 @@ form input {
 }
 
 form input {
-  margin-top: 15px;
+  margin: 15px 0 0 5px;
   width: 85%;
-  margin-left: 5px;
   height: 35px;
   border-radius: 4px;
   border: 1px solid #c1c5c8;
@@ -125,11 +138,9 @@ form input {
 .form-submit button {
   width: 85%;
   height: 44px;
-  margin-left: 3px;
-  margin-top: 25px;
+  margin: 25px 0 35px 3px;
   background: #0077c5;
   border: none;
-  margin-bottom: 35px;
   border-radius: 4px;
   color: white;
   font-size: 18px;
@@ -140,6 +151,7 @@ form input {
   font-size: 12px;
   font-style: italic;
   margin-bottom: 60px;
+  padding: 0 30px;
   padding-left: 30px;
   padding-right: 30px;
   color: #505050;
@@ -204,27 +216,8 @@ form input {
 .phone-msg {
   font-size: 11px;
   text-align: left;
-  margin-left: 38px;
-  margin-top: 5px;
+  margin: 5px 0 0 38px;
   color: #505050;
-}
-
-.set-of-logos {
-  display: flex;
-  margin-left: -35px;
-  margin-top: -25px;
-  margin-bottom: 5px;
-}
-
-.set-of-logos li {
-  list-style-type: none;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-  color: #505050;
-}
-
-.set-of-logos li:not(:first-of-type) {
-  margin-left: 8px;
 }
 
 .favicon {
