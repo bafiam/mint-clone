@@ -40,10 +40,6 @@ body {
   color: #505050;
 }
 
-.set-of-logos li:not(:first-of-type) {
-  margin-left: 8px;
-}
-
 .page-header button {
   align-self: center;
   background: #0077c5;
@@ -75,6 +71,10 @@ body {
 .page-header ul li a {
   text-decoration: none;
   color: #0077c5;
+}
+
+.set-of-logos li:not(:first-of-type) {
+  margin-left: 8px;
 }
 
 .intuit-logo {
