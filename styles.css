@@ -50,14 +50,14 @@ body {
   color: #505050;
 }
 
+.page-main a {
+  font-size: 12px;
+}
+
 .page-main a,
 .page-header ul li a {
   text-decoration: none;
   color: #0077c5;
-}
-
-.page-main a {
-  font-size: 12px;
 }
 
 .intuit-logo {
