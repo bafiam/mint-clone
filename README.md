@@ -17,13 +17,17 @@ This project consists of building an HTML document that matches the appearance o
 1. HTML5
 2. CSS3
 
+## Github Pages Link
+
+<https://fegzycole.github.io/mint-clone/>
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Authors
 
-1. [Stephen Gumba](https://github.com/bafiam/Personal-Projects)
+1. [Stephen Gumba](https://github.com/bafiam)
 2. [Iyara Oghenefegor Ferguson](https://github.com/fegzycole)
 
 ## Acknowledgments
