@@ -18,10 +18,9 @@ body {
 .signin-key {
   height: 1em;
   width: 0.8em;
-  margin-top: 2px;
   color: #0077c5;
   margin-right: 4px;
-  vertical-align: text-AvenirNext, Avenir, top;
+  vertical-align: top;
   display: inline-block;
   background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/icon-whitelock@3x.png);
   background-size: contain;
@@ -47,7 +46,7 @@ body {
   font-size: 12px;
   background: #eceef1;
   line-height: 20px;
-  font-weight: 400px;
+  font-weight: 400;
   color: #505050;
 }
 
@@ -77,7 +76,7 @@ body {
   align-items: center;
 }
 
-form {
+.form-div {
   width: 35%;
   background: white;
   height: inherit;
@@ -123,7 +122,7 @@ form input {
   margin-left: 3px;
   margin-top: 25px;
   background: #0077c5;
-  border: #0077c5;
+  border: none;
   margin-bottom: 35px;
   border-radius: 4px;
   color: white;
@@ -137,11 +136,49 @@ form input {
   margin-bottom: 60px;
   padding-left: 30px;
   padding-right: 30px;
+  color: #505050;
+  line-height: 2;
 }
 
-.form-final-parag {
+.form-recaptcha {
   font-size: 10px;
   font-style: italic;
   background: #eceef1;
   padding: 20px;
+  color: #505050;
+}
+
+.page-footer {
+  text-align: center;
+}
+
+.page-footer ul li {
+  list-style-type: none;
+}
+
+.page-footer ul li a {
+  text-decoration: none;
+  color: #505050;
+  font-size: 11px;
+}
+
+.page-footer ul li a:hover {
+  text-decoration: underline;
+}
+
+.page-footer ul {
+  display: flex;
+  margin: 0 auto;
+  width: 20%;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.footer-parag {
+  color: #505050;
+  font-size: 11px;
+  width: 52%;
+  margin: 0 auto;
+  line-height: 1.8;
+  margin-top: 6px;
 }
